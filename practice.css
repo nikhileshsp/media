@@ -285,7 +285,8 @@ li{
     }
     .maincontainer{
         margin: 10px;
-        
+        flex-direction: row;
+        flex-wrap: wrap;
         
         
     }

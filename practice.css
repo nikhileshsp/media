@@ -165,6 +165,12 @@ li{
             
     
         }
+        .para::before
+    {
+        content: url(Images/martialart3.jpg);
+        
+        
+    }
         aside h1{
             font-size: 38px;
         }

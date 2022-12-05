@@ -265,6 +265,12 @@ li{
         background-color: orange; 
 
     }
+    .para::before
+    {
+        content: url(Images/martialart3.jpg);
+        
+    }
+
     #img1{
         min-width: 200px;
     }

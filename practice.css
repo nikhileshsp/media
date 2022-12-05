@@ -85,6 +85,7 @@ menu{
     
     
 }
+
  img{
     
     max-width: 200px;
@@ -144,6 +145,14 @@ li{
     
     
 }
+.para{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.para p{
+    flex-basis: 400px;
+}
 
  #img1{
         min-width: 200px;
@@ -165,12 +174,7 @@ li{
             
     
         }
-        .para::before
-    {
-        content: url(Images/martialart3.jpg);
-        
-        
-    }
+  
         aside h1{
             font-size: 38px;
         }
@@ -209,6 +213,10 @@ li{
     #img1{
         min-width: 350px;
     }
+    .para{
+        display: flex;
+    }
+    
     .login{
         
         flex-direction: row;
@@ -236,6 +244,7 @@ li{
         margin-left: 15px;
         margin-right: 5px;
     }
+    
     .details img{
         min-width: 600px;
     }
@@ -271,11 +280,7 @@ li{
         background-color: orange; 
 
     }
-    .para::before
-    {
-        content: url(Images/martialart3.jpg);
-        
-    }
+    
 
     #img1{
         min-width: 200px;

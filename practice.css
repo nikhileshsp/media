@@ -30,6 +30,61 @@ aside{
  
     
 }
+
+#sub-mentor li{
+    display: none;
+    
+    
+}
+
+#sub-mentr li{
+    
+    
+}
+#sub-services li:hover #sub-mentor li{
+    display: flex;
+    
+    
+}
+#sub-mentor li:hover{
+    background-color: brown;
+}
+
+li ul{
+
+    display: none;
+    background-color: blue;
+    position: absolute;
+    
+    
+
+}
+ul li:hover {
+    background-color: red;
+    
+}
+
+li ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+li ul li ul{
+    position: absolute;
+    left: 110px;
+    
+    
+    
+}
+
+
+
+li:hover ul{
+    display: flex;
+}
+
+
 aside h1{
     padding: 10px;
     margin-bottom: 20px;

@@ -36,7 +36,9 @@ li a{
     color: white;
     text-decoration: none;
 }
-
+li ul {
+    background-color: blue;
+}
 li ul li ul{
     background-color: red;
 }

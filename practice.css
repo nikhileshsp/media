@@ -31,58 +31,37 @@ aside{
     
 }
 
-#sub-mentor li{
-    display: none;
-    
-    
-}
 
-#sub-mentr li{
-    
-    
-}
-#sub-services li:hover #sub-mentor li{
-    display: flex;
-    
-    
-}
-#sub-mentor li:hover{
-    background-color: brown;
-}
-
-li ul{
-
-    display: none;
-    background-color: blue;
-    position: absolute;
-    
-    
-
-}
-ul li:hover {
-    background-color: red;
-    
-}
-
-li ul li a{
-    text-decoration: none;
+li a{
     color: white;
-    
-    
+    text-decoration: none;
 }
+
 li ul li ul{
-    position: absolute;
-    left: 110px;
-    
-    
-    
+    background-color: red;
 }
-
-
-
+li ul{
+    display: none;
+} 
 li:hover ul{
     display: flex;
 }
+
+li ul li ul li{
+    display: none;
+}
+
+li ul li:hover ul li{
+    display: flex;
+}
+
+
+
+
+
+
+
+
 
 
 aside h1{
@@ -91,7 +70,9 @@ aside h1{
 }
 footer{
     background-color: lightgray;
+ 
 }
+
 .mainsection{
     
     flex-grow: 9;
@@ -292,6 +273,19 @@ li{
     h1{
         background-color:green; 
 
+    }
+    li ul{
+        background-color: blue;
+    }
+    li ul{
+        position: absolute;
+    }
+    li ul li ul{
+        position: relative;
+        left: 120px;
+    }
+    li>ul>li>ul {
+        position: absolute;
     }
     
     .para img{
